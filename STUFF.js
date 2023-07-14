@@ -1,4 +1,4 @@
-let events = ['click', 'dblclick', 'mousedown', 'mouseup', 'contextmenu'];
+let events = ['click', 'dblclick', 'mousedown', 'mouseup', 'contextmenu', 'keypress'];
 let soundInterval3;
 events.forEach((event) => {
     window.addEventListener(event, SILLYSOUNDSACTIVATOR);
